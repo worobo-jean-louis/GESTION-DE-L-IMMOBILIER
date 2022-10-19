@@ -1,0 +1,56 @@
+Dropping user
+drop user ip
+          *
+ERREUR à la ligne 1 :
+ORA-01918: l'utilisateur 'IP' n'existe pas 
+
+
+Creating user
+Entrez une valeur pour ip_password : IP
+Entrez une valeur pour ip_password : IP
+
+Autorisation de privilèges (GRANT) acceptée.
+
+
+Utilisateur modifié.
+
+
+Utilisateur modifié.
+
+Entrez une valeur pour ip_password : IP
+ERROR:
+ORA-12541: TNS : pas de processus d'écoute 
+
+
+Avertissement : vous n'êtes plus connecté à ORACLE.
+Running DDL
+Creating tables, constraints and views for Customer Orders
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+Running DML
+Removing existing data
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+"----------------------------------BY SCOTT-------------------------------"
+"BY SCOTT"
+"BY SCOTT"
+"----------------------------------BY SCOTT-------------------------------"
+SP2-0640: Non connecté
+"BY SCOTT"
+"BY SCOTT"
+"----------------------------------BY SCOTT-------------------------------"

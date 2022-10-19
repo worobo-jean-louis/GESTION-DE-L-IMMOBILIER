@@ -9,6 +9,8 @@ define ttbs = temp
 spool IP_config.log
 
 PROMPT Dropping user
+
+
 @@IP_drop_user
 
 PROMPT Creating user
@@ -28,13 +30,13 @@ PROMPT Running DML
 -- @@sample_queries
 
 
-prompt "----------------------------------BY LONTSI-------------------------------"
-prompt "BY LONTSI"
-prompt "BY LONTSI"
-prompt "----------------------------------BY LONTSI-------------------------------"
+prompt "----------------------------------BY IMMO - PRIME-------------------------------"
+prompt "BY IMMO - PRIME"
+prompt "BY IMMO - PRIME"
+prompt "----------------------------------BY IMMO - PRIME-------------------------------"
 select table_name from user_tables;
-prompt "BY LONTSI"
-prompt "BY LONTSI"
-prompt "----------------------------------BY LONTSI-------------------------------"
+prompt "BY IMMO - PRIME"
+prompt "BY IMMO - PRIME"
+prompt "----------------------------------BY IMMO - PRIME -------------------------------"
 
 spool off
