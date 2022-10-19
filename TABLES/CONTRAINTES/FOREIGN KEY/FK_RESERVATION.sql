@@ -1,0 +1,1 @@
+alter table RESERVATION add constraint FK_client FOREIGN KEY(id_client);
