@@ -14,6 +14,7 @@ PROMPT Creating tables, constraints and views for Customer Orders
 -- @@TABLES/IP_reservation.sql
 
 
+-- @@TABLES/MAIN_CONTRAINE.sql
 
 
 /*@@co_views.sql*/

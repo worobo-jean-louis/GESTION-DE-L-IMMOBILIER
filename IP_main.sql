@@ -26,6 +26,8 @@ set define off
 PROMPT Running DML
 @@TABLES/IP_dml
 
+@TABLES/CONTRAINTES/MAIN_CONTRAINE
+
 -- PROMPT Example queries
 -- @@sample_queries
 

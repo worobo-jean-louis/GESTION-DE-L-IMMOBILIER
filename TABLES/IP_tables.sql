@@ -13,13 +13,13 @@ date_fin_reservation date
 );
 
 create table ACHAT (
-id_achat int PRIMARY KEY,
+id_achat int NOT NULL,
 date_achat date,
 montant_achat int
 );
 
 create table ADRESSE (
-id_adresse int PRIMARY KEY,
+id_adresse int NOT NULL,
 ville varchar(255),
 quartier varchar(255),
 code_postal int
