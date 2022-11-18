@@ -5,6 +5,7 @@ grant create session,
       create sequence, 
       create view, 
       create procedure
+      
   to IP 
   identified by "IP";
   

@@ -1,5 +1,8 @@
 prompt suppression logement
 set define on
+
+SELECT * FROM LOGEMENT;
+
 begin
     delete  from LOGEMENT 
     where ID_LOGEMENT = &ID_LOGEMENT;
@@ -7,3 +10,5 @@ begin
 
 end;
 /
+
+SELECT * FROM LOGEMENT;

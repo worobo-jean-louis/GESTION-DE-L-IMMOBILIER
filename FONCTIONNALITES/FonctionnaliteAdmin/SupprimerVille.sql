@@ -1,8 +1,14 @@
 prompt supprimer ville
 
+SELECT * FROM VILLE;
+
 set define on
 begin
-delete ID_VILLE,NOM_VILLE from VILLE
-where NOM_VILLE = &NOM_VILLE;
+
+
+delete  from VILLE
+where ID_VILLE = &ID_VILLE;
 END;
 /
+
+SELECT * FROM VILLE;

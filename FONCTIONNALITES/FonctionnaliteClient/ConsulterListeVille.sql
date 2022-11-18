@@ -1,7 +1,3 @@
-prompt liste villes
-
-set define on
-begin
+prompt ************************** liste villes ****************************
+PROMPT ********************************************************************
     select NOM_VILLE from VILLE;
-END;
-/

@@ -1,4 +1,5 @@
-rem Initialisation du shema Gestion Immobilier en abregé IP
+prompt *********************** Initialisation du shema Gestion Immobilier en abregé IP ***************************************
+prompt ***********************************************************************************************************************
 
 
 set define on 
@@ -10,11 +11,11 @@ define tbs = users
 define ttbs = temp
 
 
-PROMPT ************** PROJET GESTION IMMOBILIER ELABORER PAR LE GROUPE 7 DE TI PAM 2 *****************
+PROMPT ************** PROJET GESTION IMMOBILIER ELABORER PAR LE GROUPE 4 DE TI PAM 2 *****************
 PROMPT **************************************************************
-PROMPT *******************************************
+PROMPT *****************************************************************************************
 PROMPT *************************
-PROMPT **************
+
 
 PROMPT *********************************** INITIALISATION DU SCHEMA ***********************************
 
@@ -51,7 +52,7 @@ rem C est de la qu on vas pouvoir crée nos differentes tables
 
 PROMPT *******************CONNECTION AU SYSDBA *******************************************
 
-rem Attribution des droits d execution de du schema IP
+rem Attribution des droits d execution  du schema IP
 GRANT execute ON sys.dbms_stats TO IP;
 
 PROMPT ********************CONNECTION AU SCHEMA *****************************************
@@ -60,13 +61,9 @@ conn IP/"IP"@&connect_string
 
 
 
-PROMPT Dropping user
 
 
--- @@IP_drop_user
 
-PROMPT Creating user
--- @@IP_user "IP" &tbs &ttbs
 
 conn IP/"IP"@&connect_string
 
@@ -95,21 +92,49 @@ PROMPT DU FICHIER INDEX_OF_PROC.SQL
 
 @PROCEDURES/PROC_INDEX.SQL
 
-@FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeInteretlogement
+-- @FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeInteretlogement
 
-@FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeQuartier
+-- @FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeQuartier
 
-@FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeVille
+-- @FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeVille
 
-@FONCTIONNALITES/FonctionnaliteAdmin/EdtiterVille
+-- @FONCTIONNALITES/FonctionnaliteAdmin/EdtiterVille
 
-@FONCTIONNALITES/FonctionnaliteAdmin/InsertionQuartier
+-- @FONCTIONNALITES/FonctionnaliteAdmin/InsertionQuartier
 
-@FONCTIONNALITES/FonctionnaliteAdmin/InsertionVille
+-- @FONCTIONNALITES/FonctionnaliteAdmin/InsertionVille
 
-@FONCTIONNALITES/FonctionnaliteAdmin/ProgrammerRDV
+-- @FONCTIONNALITES/FonctionnaliteAdmin/ProgrammerRDV
 
-@FONCTIONNALITES/FonctionnaliteAdmin/SupprimerLogement
+-- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerLogement
+-- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerVille
+
+-- @FONCTIONNALITES/FonctionnaliteClient/AjouterClient
+
+-- @FONCTIONNALITES/FonctionnaliteClient/ConsulterDetailLogement
+
+-- @FONCTIONNALITES/FonctionnaliteClient/ConsulterListeVille
+
+-- @FONCTIONNALITES/FonctionnaliteClient/ConsulterQuartier
+
+-- @FONCTIONNALITES/FonctionnaliteClient/EditerInteretLogement
+
+-- @FONCTIONNALITES/FonctionnaliteClient/EnregistrerInteret
+@FONCTIONNALITES/FonctionnaliteProprietaire/AjouterProprietaire
+
+@FONCTIONNALITES/FonctionnaliteProprietaire/ConsulterDetailPublication
+
+@FONCTIONNALITES/FonctionnaliteProprietaire/ConsulterListeLogement
+
+@FONCTIONNALITES/FonctionnaliteProprietaire/ConsulterListePublication
+
+@FONCTIONNALITES/FonctionnaliteProprietaire/CreationLogement
+
+@FONCTIONNALITES/FonctionnaliteProprietaire/CreationPublication
+
+@FONCTIONNALITES/FonctionnaliteProprietaire/EditerPublication
+
+@FONCTIONNALITES/FonctionnaliteProprietaire/SupprimerLogement
 
 
 

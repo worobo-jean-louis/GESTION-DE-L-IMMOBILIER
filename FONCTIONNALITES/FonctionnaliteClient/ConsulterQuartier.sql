@@ -1,7 +1,5 @@
-prompt consulter QUARTIER
+prompt *************************************** consulter QUARTIER *******************************************
+PROMPT ******************************************************************************************************
 
-set define on 
-begin
+
     select NOM_QUARTIER from QUARTIER;
-END;
-/
