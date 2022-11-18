@@ -6,7 +6,7 @@ grant create session,
       create view, 
       create procedure
   to IP 
-  identified by "&IP_password";
+  identified by "IP";
   
 alter user IP default tablespace &tbs
               quota unlimited on &tbs;

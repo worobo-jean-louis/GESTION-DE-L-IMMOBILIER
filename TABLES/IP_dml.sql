@@ -1,28 +1,28 @@
-PROMPT Removing existing data 
+-- PROMPT Removing existing data 
 
-truncate table ACHAT;
-truncate table ADRESSE;
-delete CATEGORIE;
-delete CLIENT;
-delete HISTORIQUE;
-delete LOGEMENT;
-delete PROPRIETAIRE;
-delete PUBLICATION;
-delete RESERVATION;
+-- truncate table ACHAT;
+-- truncate table ADRESSE;
+-- delete CATEGORIE;
+-- delete CLIENT;
+-- delete HISTORIQUE;
+-- delete LOGEMENT;
+-- delete PROPRIETAIRE;
+-- delete PUBLICATION;
+-- delete RESERVATION;
 
-PROMPT Inserting data
+-- PROMPT Inserting data
 
-@@ACHAT
-@@ADRESSE
-@@CATEGORIE
-@@CLIENT
-@@HISTORIQUE
-@@LOGEMENT
-@@PROPRIETAIRE
-@@PUBLICATION
-@@RESERVATION
+-- @@ACHAT
+-- @@ADRESSE
+-- @@CATEGORIE
+-- @@CLIENT
+-- @@HISTORIQUE
+-- @@LOGEMENT
+-- @@PROPRIETAIRE
+-- @@PUBLICATION
+-- @@RESERVATION
 
-commit;
+-- commit;
 
--- PROMPT Resetting identity columns
--- @@co_set_identity_starts
+-- -- PROMPT Resetting identity columns
+-- -- @@co_set_identity_starts

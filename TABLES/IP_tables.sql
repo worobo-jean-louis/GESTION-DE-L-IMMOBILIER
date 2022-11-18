@@ -1,67 +1,77 @@
 
+DROP sequence client_seq;
+DROP sequence proprietaire_seq;
+DROP sequence interet_seq;
+DROP sequence logement_seq;
+DROP sequence publication_seq;
+DROP sequence quartier_seq;
+DROP sequence rendez_vous_seq;
+DROP sequence ville_seq;
+
+
+
+
+
 create table CLIENT (
-id_client int NOT NULL ,
-nom_client varchar(255) not null,
-prenom_client varchar(255) not null,
-num_tel_client int
+ID_CLIENT int,
+NOM_CLIENT varchar(20) not null,
+PRENOM_CLIENT varchar(20) not null,
+TEL_CLIENT int,
+MOT_PASSE VARCHAR(20),
+EST_ACTIF VARCHAR(20),
+EST_ADMIN VARCHAR(20)
 );
 
-create table RESERVATION (
-id_reservation int  NOT NULL,
-date_debut_reservation date,
-date_fin_reservation date,
-id_client int not null
-);
-
-create table ACHAT (
-id_achat int NOT NULL,
-date_achat date,
-montant_achat int,
-id_client INT NOT NULL
-);
-
-create table ADRESSE (
-id_adresse int NOT NULL,
-ville varchar(255),
-quartier varchar(255),
-code_postal int
-);
-
-create table CATEGORIE (
-id_categorie int NOT NULL,
-type varchar(255),
-charge_forfaitaire int 
-);
-
-
-create table HISTORIQUE (
-id_historique int NOT NULL,
-date_achat date,
-date_reservation date
-);
-
-
-create table PROPRIETAIRE (
-id_proprietaire int NOT NULL,
-nom_proprietaire varchar(255) not null,
-prenom_proprietaire varchar(255) not null,
-num_tel_proprietaire int,
-id_historique INT NOT NULL
-);
-
-create table PUBLICATION (
-id_publication int NOT NULL,
-reference_pub varchar(255) not null,
-date_pub date,
-id_adresse INT NOT NULL,
-id_proprietaire INT NOT NULL
+create table INTERET (
+ID_INTERET int  ,
+DETAIL VARCHAR(20),
+FK_CLIENT INT
 );
 
 create table LOGEMENT (
-id_logement int NOT NULL,
-id_achat INT NOT NULL,
-id_reservation INT NOT NULL,
-id_adresse INT NOT NULL,
-id_categorie INT NOT NULL,
-id_proprietaire INT NOT NULL
+ID_LOGEMENT int NOT NULL,
+PRIX_LOGEMENT INT,
+DESCRIPTON_LOGEMENT VARCHAR(25),
+FK_QUARTIER INT,
+FK_PROPRIETAIRE INT
 );
+
+create table PROPRIETAIRE (
+ID_PROPRIETAIRE int NOT NULL,
+NOM_PROPRIETAIRE varchar(25),
+PRENOM_PROPRIETAIRE varchar(25),
+EST_ACTIF VARCHAR(20),
+MOT_PASSE VARCHAR(20)
+);
+
+create table PUBLICATION (
+ID_PUBLICATION int NOT NULL,
+IMAGE_PUBLICATION varchar(25),
+TITRE_PUBLICATION VARCHAR(25),
+CONDITION_PUBLICATION VARCHAR(25),
+FK_INTERET INT,
+FK_LOGEMENT INT
+);
+
+
+create table QUARTIER (
+ID_QUARTIER int NOT NULL,
+NOM_QUARTIER VARCHAR(20),
+FK_VILLE  int
+);
+
+
+create table RENDEZ_VOUS (
+ID_RENDEZ_VOUS int NOT NULL,
+DATE_RENDEZ_VOUS DATE not null,
+HEURE_RENDEZ_VOUS int,
+STATUS_RENDEZ_VOUS VARCHAR(25),
+FK_CLIENT INT,
+FK_PROPRIETAIRE INT
+);
+
+create table VILLE(
+ID_VILLE int NOT NULL,
+NOM_VILLE varchar(20)
+);
+
