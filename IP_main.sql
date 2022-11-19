@@ -123,21 +123,32 @@ PROMPT DU FICHIER INDEX_OF_PROC.SQL
 -- @FONCTIONNALITES/FonctionnaliteClient/EditerInteretLogement
 
 -- @FONCTIONNALITES/FonctionnaliteClient/EnregistrerInteret
-@FONCTIONNALITES/FonctionnaliteProprietaire/AjouterProprietaire
 
-@FONCTIONNALITES/FonctionnaliteProprietaire/ConsulterDetailPublication
+@FONCTIONNALITES/FonctionnaliteClient/RechercherLogement
 
-@FONCTIONNALITES/FonctionnaliteProprietaire/ConsulterListeLogement
 
-@FONCTIONNALITES/FonctionnaliteProprietaire/ConsulterListePublication
 
-@FONCTIONNALITES/FonctionnaliteProprietaire/CreationLogement
+-- ************************ FONCTIONNALITE DU PROPRIETAIRE *************************
 
-@FONCTIONNALITES/FonctionnaliteProprietaire/CreationPublication
 
-@FONCTIONNALITES/FonctionnaliteProprietaire/EditerPublication
 
-@FONCTIONNALITES/FonctionnaliteProprietaire/SupprimerLogement
+
+
+-- @FONCTIONNALITES/FonctionnaliteProprietaire/AjouterProprietaire
+
+-- @FONCTIONNALITES/FonctionnaliteProprietaire/ConsulterDetailPublication
+
+-- @FONCTIONNALITES/FonctionnaliteProprietaire/ConsulterListeLogement
+
+-- @FONCTIONNALITES/FonctionnaliteProprietaire/ConsulterListePublication
+
+-- @FONCTIONNALITES/FonctionnaliteProprietaire/CreationLogement
+
+-- @FONCTIONNALITES/FonctionnaliteProprietaire/CreationPublication
+
+-- @FONCTIONNALITES/FonctionnaliteProprietaire/EditerPublication
+
+-- @FONCTIONNALITES/FonctionnaliteProprietaire/SupprimerLogement
 
 
 
