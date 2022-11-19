@@ -23,7 +23,7 @@ Prompt *******************ALTERATION DE LA SESSION *****************************
 rem Langue francaise
 ALTER SESSION SET NLS_TERRITORY=Cameroon;
 ALTER SESSION SET NLS_LANGUAGE=French;
-SET LINESIZE 300
+SET LINESIZE 3000
 ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY'; 
 
 rem On affiche la liste de toute les espaces de tables alloués tablespace deja crée 
