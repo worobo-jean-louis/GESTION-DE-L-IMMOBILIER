@@ -1,5 +1,4 @@
-prompt *********************************** creation du PROPRIETAIRE **************************************
-PROMPT ***************************************************************************************************
+prompt creation du PROPRIETAIRE
 
 SELECT * FROM PROPRIETAIRE;
 set define on 
@@ -11,3 +10,10 @@ END;
 SELECT * FROM PROPRIETAIRE;
 
 
+-- create table PROPRIETAIRE (
+-- ID_PROPRIETAIRE int NOT NULL,
+-- NOM_PROPRIETAIRE varchar(25),
+-- PRENOM_PROPRIETAIRE varchar(25),
+-- EST_ACTIF VARCHAR(20),
+-- MOT_PASSE VARCHAR(20)
+-- );

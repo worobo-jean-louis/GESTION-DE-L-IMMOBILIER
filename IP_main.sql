@@ -1,5 +1,4 @@
-prompt *********************** Initialisation du shema Gestion Immobilier en abregé IP ***************************************
-prompt ***********************************************************************************************************************
+rem Initialisation du shema Gestion Immobilier en abregé IP
 
 
 set define on 
@@ -11,11 +10,11 @@ define tbs = users
 define ttbs = temp
 
 
-PROMPT ************** PROJET GESTION IMMOBILIER ELABORER PAR LE GROUPE 4 DE TI PAM 2 *****************
+PROMPT ************** PROJET GESTION IMMOBILIER ELABORER PAR LE GROUPE 7 DE TI PAM 2 *****************
 PROMPT **************************************************************
-PROMPT *****************************************************************************************
+PROMPT *******************************************
 PROMPT *************************
-
+PROMPT **************
 
 PROMPT *********************************** INITIALISATION DU SCHEMA ***********************************
 
@@ -23,7 +22,7 @@ Prompt *******************ALTERATION DE LA SESSION *****************************
 rem Langue francaise
 ALTER SESSION SET NLS_TERRITORY=Cameroon;
 ALTER SESSION SET NLS_LANGUAGE=French;
-SET LINESIZE 3000
+SET LINESIZE 300
 ALTER SESSION SET NLS_DATE_FORMAT='DD/MM/YYYY'; 
 
 rem On affiche la liste de toute les espaces de tables alloués tablespace deja crée 
@@ -52,7 +51,7 @@ rem C est de la qu on vas pouvoir crée nos differentes tables
 
 PROMPT *******************CONNECTION AU SYSDBA *******************************************
 
-rem Attribution des droits d execution  du schema IP
+rem Attribution des droits d execution de du schema IP
 GRANT execute ON sys.dbms_stats TO IP;
 
 PROMPT ********************CONNECTION AU SCHEMA *****************************************
@@ -61,9 +60,13 @@ conn IP/"IP"@&connect_string
 
 
 
+PROMPT Dropping user
 
 
+-- @@IP_drop_user
 
+PROMPT Creating user
+-- @@IP_user "IP" &tbs &ttbs
 
 conn IP/"IP"@&connect_string
 

@@ -1,5 +1,4 @@
-PROMPT ************************ Removing existing data ****************************
-prompt ***************************************************************************** 
+PROMPT Removing existing data 
 
 truncate table CLIENT;
 truncate table INTERET;
@@ -11,8 +10,7 @@ delete RENDEZ_VOUS;
 delete VILLE;
 
 
-PROMPT ************************************ Inserting data ******************************************
-prompt **********************************************************************************************
+PROMPT Inserting data
 
 @@CLIENT
 @@INTERET

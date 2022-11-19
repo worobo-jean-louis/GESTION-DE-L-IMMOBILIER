@@ -17,4 +17,12 @@ SELECT * FROM CLIENT;
 
 
 
+-- ID_CLIENT int NOT NULL ,
+-- NOM_CLIENT varchar(20) not null,
+-- PRENOM_CLIENT varchar(20) not null,
+-- TEL_CLIENT int,
+-- MOT_PASSE VARCHAR(20),
+-- EST_ACTIF VARCHAR(20),
+-- EST_ADMIN VARCHAR(20)
+
 

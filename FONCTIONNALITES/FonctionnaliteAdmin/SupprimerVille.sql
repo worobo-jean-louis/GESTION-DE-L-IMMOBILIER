@@ -1,4 +1,4 @@
-prompt ********************supprimer ville******************
+prompt supprimer ville
 
 SELECT * FROM VILLE;
 
