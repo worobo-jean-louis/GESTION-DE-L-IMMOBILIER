@@ -1,6 +1,13 @@
 
 SELECT * FROM CLIENT;
 
+PROMPT ** ENTRER UN NUMERO DE 10 CHIFFRE ET QUI COMMENCCE PAR 6
+
+PROMPT  ********* ENTRER UN MOT DE PASSE DE 10 CHIFFRE ************
+
+
+SET DEFINE ON
+
 BEGIN 
 Proc_register_c (
             p_id_client => client_seq.nextval,

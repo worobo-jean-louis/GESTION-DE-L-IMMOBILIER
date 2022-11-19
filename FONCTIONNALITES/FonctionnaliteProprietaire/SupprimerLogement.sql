@@ -1,4 +1,11 @@
 prompt ************************** SUPPRIMER UN LOGEMENT ****************************
 PROMPT ***************************************************************************
+
+SET DEFINE ON
+
+SELECT * FROM LOGEMENT;
+
     delete from LOGEMENT
-    where NOM_LOGEMENT = &NOM_LOGEMENT;
+    where ID_LOGEMENT = &ID_LOGEMENT;
+
+SELECT * FROM LOGEMENT;

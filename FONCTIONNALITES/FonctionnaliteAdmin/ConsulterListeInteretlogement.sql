@@ -1,5 +1,5 @@
 prompt ********************Lister les interets *************************
 prompt*******************************************************************
 
-        select DETAIL from INTERET;
+        select NOM_CLIENT , DETAIL from INTERET  I JOIN CLIENT C ON (I.FK_CLIENT = C.ID_CLIENT);
 

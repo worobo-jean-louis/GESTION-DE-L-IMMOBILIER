@@ -1,0 +1,505 @@
+********************* RAFRAICHISSEMENT ******************************************
+
+Utilisateur supprimé.
+
+********************* CREATION DU SCHEMA *****************************************
+
+Autorisation de privilèges (GRANT) acceptée.
+
+
+Utilisateur modifié.
+
+
+Utilisateur modifié.
+
+*******************CONNECTION AU SYSDBA *******************************************
+
+Autorisation de privilèges (GRANT) acceptée.
+
+********************CONNECTION AU SCHEMA *****************************************
+Connecté.
+Dropping user
+Creating user
+Connecté.
+Running DDL
+Creating tables, constraints and views for Customer Orders
+DROP sequence client_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence proprietaire_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence interet_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence logement_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence publication_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence quartier_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence rendez_vous_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence ville_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+
+Table créée.
+
+Running DML
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Séquence créée.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+
+Index créé.
+
+Removing existing data
+
+Table tronquée.
+
+
+Table tronquée.
+
+
+0 lignes supprimées.
+
+
+0 lignes supprimées.
+
+
+0 lignes supprimées.
+
+
+0 lignes supprimées.
+
+
+0 lignes supprimées.
+
+
+0 lignes supprimées.
+
+Inserting data
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+1 ligne créée.
+
+
+Validation effectuée.
+
+************************************************************
+******************* AJOUT DES CLES PRIMAIRE ****************
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+************************************************************
+******************* AJOUT DES CLES ETRANGERE ****************
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+************************************************************
+******************* AJOUT DES UNIQUE KEY****************
+
+Table modifiée.
+
+************************************************************
+******************* AJOUT DES CONTRAINTES CHECKS****************
+CHECK (MOT_PASSE LIKE "%__________")
+                      *
+ERREUR à la ligne 2 :
+ORA-00904: "%__________" : identificateur non valide 
+
+
+DU FICHIER INDEX_OF_PROC.SQL
+
+Procédure créée.
+
+"----------------------------------BY IMMO - PRIME-------------------------------"
+"BY IMMO - PRIME"
+"BY IMMO - PRIME"
+"----------------------------------BY IMMO - PRIME-------------------------------"
+
+TABLE_NAME                                                                                                                                                                                                                                                                                                  
+--------------------------------------------------------------------------------------------------------------------------------                                                                                                                                                                            
+CLIENT                                                                                                                                                                                                                                                                                                      
+INTERET                                                                                                                                                                                                                                                                                                     
+LOGEMENT                                                                                                                                                                                                                                                                                                    
+PROPRIETAIRE                                                                                                                                                                                                                                                                                                
+PUBLICATION                                                                                                                                                                                                                                                                                                 
+QUARTIER                                                                                                                                                                                                                                                                                                    
+RENDEZ_VOUS                                                                                                                                                                                                                                                                                                 
+VILLE                                                                                                                                                                                                                                                                                                       
+
+8 lignes sélectionnées.
+
+"BY IMMO - PRIME"
+"BY IMMO - PRIME"
+"----------------------------------BY IMMO - PRIME -------------------------------"
