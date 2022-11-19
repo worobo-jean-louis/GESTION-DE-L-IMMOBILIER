@@ -95,6 +95,26 @@ PROMPT DU FICHIER INDEX_OF_PROC.SQL
 
 @PROCEDURES/PROC_INDEX.SQL
 
+
+
+prompt "----------------------------------BY IMMO - PRIME-------------------------------"
+prompt "BY IMMO - PRIME"
+prompt "BY IMMO - PRIME"
+prompt "----------------------------------BY IMMO - PRIME-------------------------------"
+select table_name from user_tables;
+prompt "BY IMMO - PRIME"
+prompt "BY IMMO - PRIME"
+prompt "----------------------------------BY IMMO - PRIME -------------------------------"
+
+spool off
+
+
+
+-- ************************************** FONCTIONNALITE COTE CLIENT ***************************************
+
+    
+
+
 -- @FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeInteretlogement
 
 -- @FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeQuartier
@@ -110,7 +130,15 @@ PROMPT DU FICHIER INDEX_OF_PROC.SQL
 -- @FONCTIONNALITES/FonctionnaliteAdmin/ProgrammerRDV
 
 -- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerLogement
+-- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerRDV
+
 -- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerVille
+
+
+-- ************************************* FONCTIONNALITE COTE CLIENT ******************************************
+
+
+
 
 -- @FONCTIONNALITES/FonctionnaliteClient/AjouterClient
 
@@ -124,7 +152,7 @@ PROMPT DU FICHIER INDEX_OF_PROC.SQL
 
 -- @FONCTIONNALITES/FonctionnaliteClient/EnregistrerInteret
 
-@FONCTIONNALITES/FonctionnaliteClient/RechercherLogement
+-- @FONCTIONNALITES/FonctionnaliteClient/RechercherLogement
 
 
 
@@ -153,13 +181,3 @@ PROMPT DU FICHIER INDEX_OF_PROC.SQL
 
 
 
-prompt "----------------------------------BY IMMO - PRIME-------------------------------"
-prompt "BY IMMO - PRIME"
-prompt "BY IMMO - PRIME"
-prompt "----------------------------------BY IMMO - PRIME-------------------------------"
-select table_name from user_tables;
-prompt "BY IMMO - PRIME"
-prompt "BY IMMO - PRIME"
-prompt "----------------------------------BY IMMO - PRIME -------------------------------"
-
-spool off

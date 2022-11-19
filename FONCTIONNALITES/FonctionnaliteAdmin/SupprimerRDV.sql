@@ -1,5 +1,12 @@
 prompt ***************Suppression du RDV**************
 prompt************************************************
 
-delete * from RENDEZ_VOUS
+SET DEFINE ON
+
+SELECT * FROM RENDEZ_VOUS;
+
+delete  from RENDEZ_VOUS
 where ID_RENDEZ_VOUS = &ID_RENDEZ_VOUS;
+
+
+SELECT * FROM RENDEZ_VOUS;
