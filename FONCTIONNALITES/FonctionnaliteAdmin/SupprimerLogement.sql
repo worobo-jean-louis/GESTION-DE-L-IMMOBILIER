@@ -1,4 +1,4 @@
-prompt suppression logement
+prompt ******************suppression logement***********************
 set define on
 
 SELECT * FROM LOGEMENT;
