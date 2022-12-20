@@ -472,12 +472,6 @@ Table modifiée.
 
 ************************************************************
 ******************* AJOUT DES CONTRAINTES CHECKS****************
-CHECK (MOT_PASSE LIKE "%__________")
-                      *
-ERREUR à la ligne 2 :
-ORA-00904: "%__________" : identificateur non valide 
-
-
 DU FICHIER INDEX_OF_PROC.SQL
 
 Procédure créée.

@@ -9,6 +9,11 @@ END;
 /
 SELECT * FROM PROPRIETAIRE;
 
+prompt **************************************************************************************************
+
+@Menu/Main_menu.sql
+
+
 
 -- create table PROPRIETAIRE (
 -- ID_PROPRIETAIRE int NOT NULL,
