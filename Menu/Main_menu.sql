@@ -8,7 +8,7 @@ PROMPT*                                       **********************************
 PROMPT*                                       **********************************************              
 PROMPT*                                       **********************************************              
 PROMPT*                                       *                                            *
-PROMPT*                                       *    1. S'inscrire   
+PROMPT*                                       *    1. S'inscrire                           *
 PROMPT*                                       *                                            *
 PROMPT*                                       *    2. Se connecter                         *
 PROMPT*                                       *                                            *
