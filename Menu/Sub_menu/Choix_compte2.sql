@@ -5,29 +5,24 @@ PROMPT*
 PROMPT*                   
 PROMPT*                                       **********************************************              
 PROMPT*                                       **********************************************              
-PROMPT*                                       **********************************************              
-PROMPT*                                       **********************************************              
 PROMPT*                                       *                                            *
-PROMPT*                                       *    1. S inscrire                           *
+PROMPT*                                       *    1. Compte client                        *
 PROMPT*                                       *                                            *
-PROMPT*                                       *    2. Se connecter                         *
+PROMPT*                                       *    2. Compte proprietaire                  *
 PROMPT*                                       *                                            *
 PROMPT*                                       *                                            *
-PROMPT*                                       **********************************************
-PROMPT*                                       **********************************************
-PROMPT*                                       **********************************************
 PROMPT*                                       **********************************************
 
 
-  accept selection prompt "Choisissez une option : " 
+  accept selection prompt "Choisissez votre compte   : " 
   set term off
   set define on
 
 column script new_value v_script
 
 select case '&selection'
-    when '1' then '@Menu/Sub_menu/Choix_compte.sql'
-    when '2' then '@Menu/Sub_menu/Choix_compte2.sql'
+    when '1' then '@FONCTIONNALITES/FonctionnaliteClient/ConnecterProprietaire.sql'
+    when '2' then '@FONCTIONNALITES/FonctionnaliteProprietaire/AjouterProprietaire.sql'
 end as script
 from dual;
 set term on 

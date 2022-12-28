@@ -1,12 +1,12 @@
 
-DROP sequence client_seq;
+/*DROP sequence client_seq;
 DROP sequence proprietaire_seq;
 DROP sequence interet_seq;
 DROP sequence logement_seq;
 DROP sequence publication_seq;
 DROP sequence quartier_seq;
 DROP sequence rendez_vous_seq;
-DROP sequence ville_seq;
+DROP sequence ville_seq;*/
 
 
 
@@ -18,8 +18,8 @@ NOM_CLIENT varchar(20) not null,
 PRENOM_CLIENT varchar(20) not null,
 TEL_CLIENT int,
 MOT_PASSE VARCHAR(20),
-EST_ACTIF VARCHAR(20),
-EST_ADMIN VARCHAR(20)
+EST_ACTIF VARCHAR(20) DEFAULT 'Y',
+EST_ADMIN VARCHAR(20) DEFAULT 'N'
 );
 
 create table INTERET (
@@ -45,7 +45,7 @@ ID_PROPRIETAIRE int NOT NULL,
 NOM_PROPRIETAIRE varchar(25),
 PRENOM_PROPRIETAIRE varchar(25),
 TEL_PROPRIETAIRE INT ,
-EST_ACTIF VARCHAR(20),
+EST_ACTIF VARCHAR(20) DEFAULT 'Y',
 MOT_PASSE_PROPRIETAIRE VARCHAR(20)
 );
 

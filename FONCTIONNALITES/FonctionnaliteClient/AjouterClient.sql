@@ -3,7 +3,7 @@ SELECT * FROM CLIENT;
 
 PROMPT ** ENTRER UN NUMERO DE 10 CHIFFRE ET QUI COMMENCCE PAR 6
 
-PROMPT  ********* ENTRER UN MOT DE PASSE DE 10 CHIFFRE ************
+PROMPT  ********* ENTRER UN MOT DE PASSE DE 10 CARACTERES ************
 
 
 SET DEFINE ON
@@ -14,9 +14,7 @@ Proc_register_c (
             p_nom_client => '&nom_client',
              p_prenom_client => '&prenom_client',
              p_tel_client => &tel_client,
-             p_password => '&mot_de_passe',
-             p_est_actif => '&est_actif',
-             p_est_admin => '&est_admin');
+             p_password => '&mot_de_passe');
 END;
 /
 

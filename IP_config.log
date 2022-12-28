@@ -23,54 +23,6 @@ Creating user
 Connecté.
 Running DDL
 Creating tables, constraints and views for Customer Orders
-DROP sequence client_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
-
-
-DROP sequence proprietaire_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
-
-
-DROP sequence interet_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
-
-
-DROP sequence logement_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
-
-
-DROP sequence publication_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
-
-
-DROP sequence quartier_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
-
-
-DROP sequence rendez_vous_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
-
-
-DROP sequence ville_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
-
-
 
 Table créée.
 
@@ -350,35 +302,65 @@ Inserting data
 
 1 ligne créée.
 
-
-1 ligne créée.
-
-
-1 ligne créée.
-
-
-1 ligne créée.
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (1 , '2/11/2002'  , '9' , 'ACCEPTER' , 1 , 1)
+                                                                                                                                               *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
 
 
-1 ligne créée.
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (2 , '4/11/2002' , '12' , 'REFUSER' , 2 , 2)
+                                                                                                                                               *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
 
 
-1 ligne créée.
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (3 , '3/11/2018' , '19' , 'ACCEPTER' , 3 , 3)
+                                                                                                                                               *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
 
 
-1 ligne créée.
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (4 , '9/11/2019' , '11' , 'ACCEPTER' , 4 , 4)
+                                                                                                                                               *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
 
 
-1 ligne créée.
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (5 , '2/1/2022' , '12' , 'REFUSER' , 5 , 5)
+                                                                                                                                               *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
 
 
-1 ligne créée.
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (6 , '25/11/2022' , '11' , 'ACCEPTER' , 6 , 6)
+                                                                                                                                               *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
 
 
-1 ligne créée.
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (7 , '2/11/2002' , '14' , 'ACCEPTER' , 7 , 7)
+                                                                                                                                               *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
 
 
-1 ligne créée.
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (8 , '12/09/2022' , '12' , 'REFUSER' , 8 , 8)
+                                                                                                                                               *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
+
+
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (9 , '22/4/2002' , '16' , 'ACCEPTER' , 9 , 9)
+                                                                                                                                               *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
+
+
+INSERT INTO RENDEZ_VOUS (ID_RENDEZ_VOUS , DATE_RENDEZ_VOUS , HEURE_RENDEZ_VOUS , STATUS_RENDEZ_VOUS , FK_CLIENT , FK_PROPRIETAIRE) VALUES (10 , '24/8/2016', '10' , 'REFUSER' , 10 , 10)
+                                                                                                                                                *
+ERREUR à la ligne 1 :
+ORA-01830: Le modèle  du format de date se termine avant la conversion de la chaîne d'entrée entière 
+
 
 
 1 ligne créée.
