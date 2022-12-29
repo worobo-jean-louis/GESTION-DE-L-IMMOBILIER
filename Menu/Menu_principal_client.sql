@@ -41,7 +41,8 @@ select case '&selection'
     when '3' then '@FONCTIONNALITES\FonctionnaliteClient\ConsulterListeVille.sql'
     when '4' then '@FONCTIONNALITES\FonctionnaliteClient\ConsulterDetailLogement.sql'
     when '5' then '@FONCTIONNALITES\FonctionnaliteClient\EnregistrerInteret.sql'
-    when '6' then '@FONCTIONNALITES\FonctionnaliteClient\EnregistrerInteret.sql'
+    when '6' then '@FONCTIONNALITES\FonctionnaliteAdmin\EditerRendez-vous.sql'
+    when '7' then '@FONCTIONNALITES\FonctionnaliteAdmin\EditerRendez-vous.sql'
 end as script
 from dual;
 set term on 

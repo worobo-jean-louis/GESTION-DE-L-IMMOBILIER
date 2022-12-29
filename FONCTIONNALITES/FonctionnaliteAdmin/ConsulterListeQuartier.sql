@@ -1,2 +1,7 @@
 prompt consulte
-    select NOM_QUARTIER from QUARTIER;
+
+SELECT DISTINCT NOM_QUARTIER
+FROM QUARTIER
+JOIN VILLE
+ON (QUARTIER.id_ville = VILLE.id_ville) 
+WHERE NOM_VILLE = '&nom_ville';
