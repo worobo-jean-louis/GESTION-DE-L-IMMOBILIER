@@ -8,6 +8,8 @@ FROM DUAL;
 
 SET TERM ON;
 
+@Menu\Menu_principal_client.sql
+
 
 -- create table CLIENT (
 -- ID_CLIENT int,
