@@ -19,7 +19,9 @@ PROMPT*                                       *    5. Enregistrer son interets a
 PROMPT*                                       *                                               *
 PROMPT*                                       *    6. Accepter un rendez-vous                 *
 PROMPT*                                       *                                               *
-PROMPT*                                       *    7. Refuser un rendez-vous                  *                    
+PROMPT*                                       *    7. Refuser un rendez-vous                  *
+PROMPT*               *                       *                                               *
+PROMPT*                                       *    8. Sortir                                  *
 PROMPT*                                       *                                               *
 PROMPT*                                       *************************************************
 PROMPT*                                       *************************************************

@@ -108,7 +108,7 @@ prompt "----------------------------------BY IMMO - PRIME ----------------------
 
 spool off
 
-@Menu/Main_menu.sql
+@Menu\Main_menu.sql
 
 
 -- ************************************** FONCTIONNALITE COTE CLIENT ***************************************

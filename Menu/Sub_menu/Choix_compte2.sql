@@ -21,8 +21,8 @@ PROMPT*                                       **********************************
 column script new_value v_script
 
 select case '&selection'
-    when '1' then '@FONCTIONNALITES/FonctionnaliteClient/ConnecterProprietaire.sql'
-    when '2' then '@FONCTIONNALITES/FonctionnaliteProprietaire/AjouterProprietaire.sql'
+    when '1' then '@FONCTIONNALITES\FonctionnaliteClient\ConnecterClient.sql'
+    when '2' then '@FONCTIONNALITES\FonctionnaliteProprietaire\ConnecterProprietaire.sql'
 end as script
 from dual;
 set term on 
