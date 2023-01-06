@@ -4,6 +4,7 @@ CREATE OR REPLACE PROCEDURE Proc_register_c(
                                           p_nom_client IN VARCHAR2, 
                                         p_prenom_client IN VARCHAR2, 
                                         p_tel_client IN NUMBER,
+                                        p_email IN VARCHAR2,
                                         p_password IN VARCHAR2)
     IS 
         l_msg VARCHAR2(100);
@@ -13,6 +14,7 @@ ID_CLIENT ,
 NOM_CLIENT ,
 PRENOM_CLIENT ,
 TEL_CLIENT ,
+EMAIL_CLIENT ,
 MOT_PASSE  
         
         )
@@ -21,6 +23,7 @@ MOT_PASSE
                p_nom_client,
                p_prenom_client,
                p_tel_client,
+               p_email,
                p_password
         FROM DUAL
         WHERE NOT EXISTS 

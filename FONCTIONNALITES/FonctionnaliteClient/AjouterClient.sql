@@ -14,6 +14,7 @@ Proc_register_c (
             p_nom_client => '&nom_client',
              p_prenom_client => '&prenom_client',
              p_tel_client => &tel_client,
+             p_email => '&email',
              p_password => '&mot_de_passe');
 END;
 /
