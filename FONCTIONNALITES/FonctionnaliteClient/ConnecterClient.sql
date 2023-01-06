@@ -1,7 +1,8 @@
 SET DEFINE ON
 
 SELECT CASE 
-        WHEN (SELECT COUNT(ID_CLIENT) FROM CLIENT WHERE NOM_CLIENT = '&Votre_nom_utilisateur' AND MOT_PASSE = '&Votre_mot_passe') >= 1 THEN 'Bienvenue'
+        WHEN (SELECT COUNT(ID_CLIENT) FROM CLIENT WHERE NOM_CLIENT = '&Votre_nom_utilisateur' AND MOT_PASSE = '&Votre_mot_passe') >= 1 
+        THEN 'Bienvenu'
         ELSE 'echec de l authentification '
         END AS SCRIPT 
 FROM DUAL;
@@ -9,8 +10,6 @@ FROM DUAL;
 SET TERM ON;
 
 @Menu\Menu_principal_client.sql
-
-
 -- create table CLIENT (
 -- ID_CLIENT int,
 -- NOM_CLIENT varchar(20) not null,

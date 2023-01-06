@@ -13,3 +13,5 @@ END;
 /
 
 SELECT * FROM LOGEMENT;
+
+@Menu\Sub_menu\Sub_menu_proprio\menu_logement.sql

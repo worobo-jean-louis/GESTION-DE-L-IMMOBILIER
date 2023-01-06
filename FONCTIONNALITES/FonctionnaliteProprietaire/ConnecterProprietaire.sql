@@ -7,3 +7,5 @@ SELECT CASE
 FROM DUAL;
 
 SET TERM ON;
+
+@Menu\Menu_principal_proprio.sql

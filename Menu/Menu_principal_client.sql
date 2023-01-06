@@ -13,7 +13,7 @@ PROMPT*                                       *    2. Consulter les quartiers d 
 PROMPT*                                       *                                               *
 PROMPT*                                       *    3. Consulter la liste des villes           *
 PROMPT*                                       *                                               *
-PROMPT*                                       *    4. Consulter les details d un logements     *                                  
+PROMPT*                                       *    4. Consulter les details d un logements    *                                  
 PROMPT*                                       *                                               *
 PROMPT*                                       *    5. Enregistrer son interets a un logement  *                                      
 PROMPT*                                       *                                               *
@@ -37,12 +37,13 @@ column script new_value v_script
 
 select case '&selection'
     when '1' then '@FONCTIONNALITES\FonctionnaliteClient\RechercherLogement.sql'
-    when '2' then '@FONCTIONNALITES\FonctionnaliteClient\ConsulterQuartier.sql'
+    when '2' then '@FONCTIONNALITES\FonctionnaliteAdmin\ConsulterListeQuartier.sql'
     when '3' then '@FONCTIONNALITES\FonctionnaliteClient\ConsulterListeVille.sql'
     when '4' then '@FONCTIONNALITES\FonctionnaliteClient\ConsulterDetailLogement.sql'
     when '5' then '@FONCTIONNALITES\FonctionnaliteClient\EnregistrerInteret.sql'
     when '6' then '@FONCTIONNALITES\FonctionnaliteAdmin\EditerRendez-vous.sql'
     when '7' then '@FONCTIONNALITES\FonctionnaliteAdmin\EditerRendez-vous.sql'
+    when '8' then '@Menu\Main_menu.sql'
 end as script
 from dual;
 set term on 

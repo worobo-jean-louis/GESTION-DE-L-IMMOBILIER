@@ -12,6 +12,7 @@ PROMPT*                                       *    1. S inscrire                
 PROMPT*                                       *                                            *
 PROMPT*                                       *    2. Se connecter                         *
 PROMPT*                                       *                                            *
+PROMPT*                                       *    3. Sortir                               *
 PROMPT*                                       *                                            *
 PROMPT*                                       **********************************************
 PROMPT*                                       **********************************************
@@ -28,6 +29,7 @@ column script new_value v_script
 select case '&selection'
     when '1' then '@Menu/Sub_menu/Choix_compte.sql'
     when '2' then '@Menu/Sub_menu/Choix_compte2.sql'
+    when '3' then '@Menu\sortie.sql'
 end as script
 from dual;
 set term on 

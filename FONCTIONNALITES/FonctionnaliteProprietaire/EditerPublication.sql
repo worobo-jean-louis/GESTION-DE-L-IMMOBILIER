@@ -15,3 +15,5 @@ WHERE ID_PUBLICATION = &ID_PUBLICATION;
 end;
 /
 SELECT * FROM PUBLICATION;
+
+@Menu\Sub_menu\Sub_menu_proprio\Menu_publication.sql

@@ -16,7 +16,7 @@ VALUES(publication_seq.nextval , '&TITRE_PUBLICATION', '&IMAGE_PUBLICATION' , '&
 
 SELECT * FROM PUBLICATION;
 
-
+@Menu\Sub_menu\Sub_menu_proprio\Menu_publication.sql
 -- ID_PUBLICATION int NOT NULL,
 -- IMAGE_PUBLICATION varchar(25),
 -- TITRE_PUBLICATION VARCHAR(25),
