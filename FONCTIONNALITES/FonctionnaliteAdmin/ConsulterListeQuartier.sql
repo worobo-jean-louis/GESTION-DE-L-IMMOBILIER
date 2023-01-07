@@ -6,4 +6,4 @@ JOIN VILLE
 ON (QUARTIER.FK_VILLE = VILLE.ID_VILLE) 
 WHERE NOM_VILLE = '&nom_ville';
 
-@Menu\Menu_principal_client.sql
+@Menu\Menu_principal_admin.sql

@@ -85,6 +85,7 @@ PROMPT Running DML
 
 -- @PROCEDURES/PROC_CLIENT.SQL
 
+-- @TABLES\CONTRAINTES\CHECKS\CHECK_CLIENT.SQL
 
 @TABLES/CONTRAINTES/MAIN_CONTRAINE
 
@@ -103,7 +104,7 @@ prompt "BY IMMO - PRIME"
 prompt "----------------------------------BY IMMO - PRIME-------------------------------"
 select table_name from user_tables;
 prompt "BY IMMO - PRIME"
-prompt "BY IMMO - PRIME"
+prompt "BY IMMO - PRIME" 
 prompt "----------------------------------BY IMMO - PRIME -------------------------------"
 
 spool off
@@ -111,10 +112,10 @@ spool off
 @Menu\Main_menu.sql
 
 
-
 -- ************************************** FONCTIONNALITE COTE CLIENT ***************************************
 
     
+-- @FONCTIONNALITES/FonctionnaliteAdmin/AciverCompte
 
 
 -- @FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeInteretlogement
@@ -132,9 +133,12 @@ spool off
 -- @FONCTIONNALITES/FonctionnaliteAdmin/ProgrammerRDV
 
 -- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerLogement
+
 -- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerRDV
 
 -- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerVille
+
+
 
 
 -- ************************************* FONCTIONNALITE COTE CLIENT ******************************************

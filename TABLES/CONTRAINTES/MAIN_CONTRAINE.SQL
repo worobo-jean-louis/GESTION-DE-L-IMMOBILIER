@@ -52,6 +52,7 @@ PROMPT ******************* AJOUT DES UNIQUE KEY****************
 PROMPT ************************************************************
 PROMPT ******************* AJOUT DES CONTRAINTES CHECKS****************
 
+@TABLES\CONTRAINTES\CHECKS\CHECK_CLIENT
 
 @TABLES/CONTRAINTES/CHECKS/CHECK_RUN
 

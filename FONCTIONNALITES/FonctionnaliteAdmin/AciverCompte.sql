@@ -2,6 +2,8 @@ PROMPT ******************** Aciver un compte ***************************
 PROMPT *****************************************************************
 
 
+
+
 SELECT * FROM CLIENT;
 
 set define on
@@ -16,3 +18,5 @@ end;
 /
 
 SELECT * FROM CLIENT;
+
+end;
