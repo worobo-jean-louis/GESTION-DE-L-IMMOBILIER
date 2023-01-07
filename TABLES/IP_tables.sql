@@ -24,7 +24,7 @@ create table CLIENT (
 ID_CLIENT int DEFAULT client_seq.NEXTVAL NOT NULL,
 NOM_CLIENT varchar(20) not null,
 PRENOM_CLIENT varchar(20) not null,
-TEL_CLIENT int,
+TEL_CLIENT int not null,
 EMAIL_CLIENT varchar(20),
 MOT_PASSE VARCHAR(20),
 EST_ACTIF VARCHAR(20) DEFAULT 'Y',

@@ -85,6 +85,7 @@ PROMPT Running DML
 
 -- @PROCEDURES/PROC_CLIENT.SQL
 
+-- @TABLES\CONTRAINTES\CHECKS\CHECK_CLIENT.SQL
 
 @TABLES/CONTRAINTES/MAIN_CONTRAINE
 
@@ -103,13 +104,12 @@ prompt "BY IMMO - PRIME"
 prompt "----------------------------------BY IMMO - PRIME-------------------------------"
 select table_name from user_tables;
 prompt "BY IMMO - PRIME"
-prompt "BY IMMO - PRIME"
+prompt "BY IMMO - PRIME" 
 prompt "----------------------------------BY IMMO - PRIME -------------------------------"
 
 spool off
 
 @Menu\Main_menu.sql
-
 
 
 -- ************************************** FONCTIONNALITE COTE CLIENT ***************************************
