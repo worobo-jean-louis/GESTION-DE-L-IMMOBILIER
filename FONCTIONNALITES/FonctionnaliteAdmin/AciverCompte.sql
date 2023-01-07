@@ -1,14 +1,5 @@
-
-set define on 
-
-DECLARE
-
-begin
-  
 PROMPT ******************** Aciver un compte ***************************
 PROMPT *****************************************************************
-
-
 
 
 SELECT * FROM CLIENT;
@@ -23,6 +14,5 @@ WHERE ID_CLIENT = &ID_CLIENT;
 
 end;
 /
-SELECT * FROM CLIENT;
 
-end;
+SELECT * FROM CLIENT;
