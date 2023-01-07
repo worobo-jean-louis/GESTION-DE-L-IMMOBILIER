@@ -496,20 +496,8 @@ Table modifiée.
 
 Table modifiée.
 
-ALTER TABLE PROPRIETAIRE
-*
-ERREUR à la ligne 1 :
-ORA-02293: impossible de valider (IP.) - violation d'une contrainte de contrôle 
-
-
 
 Table modifiée.
-
-ALTER TABLE PROPRIETAIRE
-*
-ERREUR à la ligne 1 :
-ORA-02293: impossible de valider (IP.) - violation d'une contrainte de contrôle 
-
 
 DU FICHIER INDEX_OF_PROC.SQL
 

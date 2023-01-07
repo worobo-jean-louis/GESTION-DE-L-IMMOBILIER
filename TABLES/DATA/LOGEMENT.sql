@@ -43,7 +43,9 @@ INSERT INTO LOGEMENT (TYPE_LOGEMENT , PRIX_MENSUEL , AVEC_PARKING , AVEC_PISCINE
   -- CHAMBRE                                                                                                                                           
   -- DOUALA                                                                                                                                          
   -- 20000                                                                                                                                          
-  -- 50000                                                                                                                                          
+  -- 50000 
+  -- 4
+  -- 6                                                                                                                                         
   -- Y                                                                                                                                          
   -- N                                                                                                                                           
                                                                                                                                              
