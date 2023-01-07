@@ -115,6 +115,7 @@ spool off
 -- ************************************** FONCTIONNALITE COTE CLIENT ***************************************
 
     
+-- @FONCTIONNALITES/FonctionnaliteAdmin/AciverCompte
 
 
 -- @FONCTIONNALITES/FonctionnaliteAdmin/ConsulterListeInteretlogement
@@ -132,9 +133,12 @@ spool off
 -- @FONCTIONNALITES/FonctionnaliteAdmin/ProgrammerRDV
 
 -- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerLogement
+
 -- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerRDV
 
 -- @FONCTIONNALITES/FonctionnaliteAdmin/SupprimerVille
+
+
 
 
 -- ************************************* FONCTIONNALITE COTE CLIENT ******************************************

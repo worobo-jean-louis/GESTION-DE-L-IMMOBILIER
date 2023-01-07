@@ -13,4 +13,4 @@ SET TERM ON;
   @&v_script;
 
 
-@Menu\Menu_principal_client.sql
+@Menu\Menu_principal_admin.sql

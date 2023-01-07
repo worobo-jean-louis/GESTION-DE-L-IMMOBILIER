@@ -17,3 +17,5 @@ end;
 SELECT * FROM VILLE;
 
 
+@Menu\Menu_principal_admin.sql
+

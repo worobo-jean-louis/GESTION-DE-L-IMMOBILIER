@@ -17,3 +17,5 @@ WHERE ID_VILLE = &ID_VILLE;
 end;
 /
 SELECT * FROM VILLE;
+
+@Menu\Menu_principal_admin.sql

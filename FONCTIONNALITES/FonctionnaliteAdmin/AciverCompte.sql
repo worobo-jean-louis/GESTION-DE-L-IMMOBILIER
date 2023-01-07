@@ -1,12 +1,8 @@
-
-set define on 
-
-DECLARE
-
-begin
-  
 PROMPT ******************** Aciver un compte ***************************
 PROMPT *****************************************************************
+
+
+  
 
 
 
@@ -25,4 +21,4 @@ end;
 /
 SELECT * FROM CLIENT;
 
-@Menu\Menu_principal_client.sql
+@Menu\Menu_principal_admin.sql

@@ -10,3 +10,5 @@ where ID_RENDEZ_VOUS = &ID_RENDEZ_VOUS;
 
 
 SELECT * FROM RENDEZ_VOUS;
+
+@Menu\Menu_principal_admin.sql
