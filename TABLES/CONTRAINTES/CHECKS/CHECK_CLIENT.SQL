@@ -9,6 +9,11 @@ ADD (
   CHECK (EMAIL_CLIENT LIKE '%@%.%')
 );
 
+ALTER TABLE PROPRIETAIRE
+ADD (
+  CHECK (TEL_PROPRIETAIRE LIKE '6________')
+);
+
 -- alter table CLIENT add
 --  check (
 --      TEL_CLIENT LIKE '6_________'
