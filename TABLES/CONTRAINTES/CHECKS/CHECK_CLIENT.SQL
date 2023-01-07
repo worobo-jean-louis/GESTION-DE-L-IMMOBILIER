@@ -3,10 +3,11 @@ alter table CLIENT add constraint   EST_ACTIF
 ( 'Y','N'))
 
 
-alter table CLIENT add constraint   EMAIL_CLIENT
- check (
-     EMAIL_CLIENT LIKE '%@%.%'
-   )
+ALTER TABLE CLIENT
+ADD (
+  CHECK (TEL_CLIENT LIKE '6________'),
+  CHECK (EMAIL_CLIENT LIKE '%@%.%')
+);
 
 -- alter table CLIENT add
 --  check (

@@ -1,501 +1,507 @@
 ********************* RAFRAICHISSEMENT ******************************************
 
-Utilisateur supprimï¿½.
+Utilisateur supprimé.
 
 ********************* CREATION DU SCHEMA *****************************************
 
-Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
+Autorisation de privilèges (GRANT) acceptée.
 
 
-Utilisateur modifiï¿½.
+Utilisateur modifié.
 
 
-Utilisateur modifiï¿½.
+Utilisateur modifié.
 
 *******************CONNECTION AU SYSDBA *******************************************
 
-Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
+Autorisation de privilèges (GRANT) acceptée.
 
 ********************CONNECTION AU SCHEMA *****************************************
-Connectï¿½.
+Connecté.
 Dropping user
 Creating user
-Connectï¿½.
+Connecté.
 Running DDL
 Creating tables, constraints and views for Customer Orders
 
-Session modifiï¿½e.
+Session modifiée.
 
 
-Session modifiï¿½e.
+Session modifiée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Running DML
 
-Index crï¿½ï¿½.
+Index créé.
 
 
-Index crï¿½ï¿½.
+Index créé.
 
 
-Index crï¿½ï¿½.
+Index créé.
 
 
-Index crï¿½ï¿½.
+Index créé.
 
 
-Index crï¿½ï¿½.
+Index créé.
 
 
-Index crï¿½ï¿½.
+Index créé.
 
 
-Index crï¿½ï¿½.
+Index créé.
 
 
-Index crï¿½ï¿½.
+Index créé.
 
 Removing existing data
 
-Table tronquï¿½e.
+Table tronquée.
 
 
-Table tronquï¿½e.
+Table tronquée.
 
 
-0 lignes supprimï¿½es.
+0 lignes supprimées.
 
 
-0 lignes supprimï¿½es.
+0 lignes supprimées.
 
 
-0 lignes supprimï¿½es.
+0 lignes supprimées.
 
 
-0 lignes supprimï¿½es.
+0 lignes supprimées.
 
 
-0 lignes supprimï¿½es.
+0 lignes supprimées.
 
 
-0 lignes supprimï¿½es.
+0 lignes supprimées.
 
 Inserting data
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-1 ligne crï¿½ï¿½e.
+1 ligne créée.
 
 
-Validation effectuï¿½e.
+Validation effectuée.
 
 ************************************************************
 ******************* AJOUT DES CLES PRIMAIRE ****************
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 ************************************************************
 ******************* AJOUT DES CLES ETRANGERE ****************
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 ************************************************************
 ******************* AJOUT DES UNIQUE KEY****************
 
-Table modifiï¿½e.
+Table modifiée.
 
 ************************************************************
 ******************* AJOUT DES CONTRAINTES CHECKS****************
+
+Table modifiée.
+
+
+Table modifiée.
+
 DU FICHIER INDEX_OF_PROC.SQL
 
-Procï¿½dure crï¿½ï¿½e.
+Procédure créée.
 
 "----------------------------------BY IMMO - PRIME-------------------------------"
 "BY IMMO - PRIME"
@@ -513,7 +519,7 @@ QUARTIER
 RENDEZ_VOUS                                                                                                                                                                                                                                                                                                 
 VILLE                                                                                                                                                                                                                                                                                                       
 
-8 lignes sï¿½lectionnï¿½es.
+8 lignes sélectionnées.
 
 "BY IMMO - PRIME"
 "BY IMMO - PRIME"
