@@ -40,12 +40,12 @@ INSERT INTO LOGEMENT (TYPE_LOGEMENT , PRIX_MENSUEL , AVEC_PARKING , AVEC_PISCINE
 INSERT INTO LOGEMENT (TYPE_LOGEMENT , PRIX_MENSUEL , AVEC_PARKING , AVEC_PISCINE , NBR_CHAMBRE , NBR_DOUCHE , FK_QUARTIER , FK_PROPRIETAIRE) VALUES ('studio',       15000    , 'Y',  'N',    1, 1, 19, 9 );
 INSERT INTO LOGEMENT (TYPE_LOGEMENT , PRIX_MENSUEL , AVEC_PARKING , AVEC_PISCINE , NBR_CHAMBRE , NBR_DOUCHE , FK_QUARTIER , FK_PROPRIETAIRE) VALUES ('appartement',  150000   , 'N',  'Y',    2, 2, 20, 10);*/
                                                                                                                                              
-                                                                                                                                             
-                                                                                                                                             
-                                                                                                                                             
-                                                                                                                                             
-                                                                                                                                             
-                                                                                                                                             
+  -- CHAMBRE                                                                                                                                           
+  -- DOUALA                                                                                                                                          
+  -- 20000                                                                                                                                          
+  -- 50000                                                                                                                                          
+  -- Y                                                                                                                                          
+  -- N                                                                                                                                           
                                                                                                                                              
                                                                                                                                              
                                                                                                                                              
